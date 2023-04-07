@@ -161,7 +161,7 @@ h6 {
     margin-bottom: 1.4rem;
     font-size: 3rem;
     line-height: 1.1;
-    color: rgba(43, 42, 44, 0.15);
+    color: #2B2A2C;
     font-weight: 700;
     text-transform: uppercase
 }
@@ -169,27 +169,30 @@ h6 {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem 2.8rem
+    margin: 0 1rem 2.8rem
 }
 
 .portfolio__col {
-    flex-basis: 33.33%;
+    flex-basis: 50%;
     padding: 1rem
 }
 
-.portfolio__img {
+.portfolio__img,
+.certificates__img {
     display: block;
     max-width: 100%;
     height: auto
 }
 
-.portfolio__item {
+.portfolio__item,
+.certificates__item {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25)
 }
 
-.portfolio__item:hover {
+.portfolio__item:hover,
+.certificates__item:hover {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
     transition: box-shadow .2s linear
 }
@@ -269,6 +272,28 @@ h6 {
     display: block;
     max-width: 100%;
     height: auto
+}
+
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1rem 2.8rem
+}
+
+.certificates__col {
+    flex-basis: 50%;
+    padding: 1rem
+}
+
+.certificates__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+    font-size: 3rem;
+    line-height: 1.1;
+    color:#2B2A2C;
+    font-weight: 700;
+    text-transform: uppercase
 }
 
 .footer {
