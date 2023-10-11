@@ -234,9 +234,8 @@ h6 {
     border-bottom: 1px solid rgba(106, 105, 107, 0.3)
 }
 
-.about__photo,
 .about__content {
-    width: 50%
+    width: 100%
 }
 
 .about__content {
